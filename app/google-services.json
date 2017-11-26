@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "225406397391",
+    "firebase_url": "https://insuranceproduct-afb89.firebaseio.com",
+    "project_id": "insuranceproduct-afb89",
+    "storage_bucket": "insuranceproduct-afb89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225406397391:android:e90811a58814a8d0",
+        "android_client_info": {
+          "package_name": "com.example.yesmine.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225406397391-04pf1plr2rmtbca2ik3mkq9sf0bkk8gp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yesmine.myapplication",
+            "certificate_hash": "29fb6edb0bcbe213141bab3481ed704016e2ec81"
+          }
+        },
+        {
+          "client_id": "225406397391-80lcg5irn5f84o5te4dlg98af014smnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaoFJj56du6uFClUVoHW0xVnH8h08d0Yo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225406397391-80lcg5irn5f84o5te4dlg98af014smnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Product Insurance </string>
+    <string name="json_image_name">JSon Image Name</string>
+    <string name="phone">Phone :</string>
+</resources>
