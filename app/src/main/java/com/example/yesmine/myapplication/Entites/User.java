@@ -1,41 +1,93 @@
-package com.example.oualhaomar.insurancepi.Entities;
+package com.example.yekkenyosr.pi.Entites;
+
+import java.util.Date;
 
 /**
- * Created by oualhaomar on 23/11/2017.
+ * Created by Yekken Yosr on 26/11/2017.
  */
 
 public class User {
-    private Integer id;
+    public static int CurrentId ;
+    public static String CurrentName ;
+    public static Date CurrentBirthdayDate ;
+    public static String CurrentAdress ;
+    public static String CurrentEmail ;
+    public static String CurrentPhone ;
+    public static String CurrentLogin ;
+    public static String CurrentPassword ;
+    public static String CurrentRole ;
+
+    private int id;
+    private String name;
+    private Date BirthdayDate;
+    private String adress;
+    private String email;
+    private String phone;
     private String login;
     private String password;
-    private String firstName;
-    private String lastName;
-    private String avatar;
-    private String Email;
-    private Boolean isActif;
-    private Integer Online;
+    private String role;
 
-
-    public User() {
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", BirthdayDate=" + BirthdayDate +
+                ", adress='" + adress + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                ", login='" + login + '\'' +
+                ", password='" + password + '\'' +
+                ", role='" + role + '\'' +
+                '}';
     }
 
-    public User(Integer id, String login, String password, String firstName, String lastName, String email, Boolean isActif, Integer online) {
-        this.id = id;
-        this.login = login;
-        this.password = password;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        Email = email;
-        this.isActif = isActif;
-        Online = online;
-    }
-
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Date getBirthdayDate() {
+        return BirthdayDate;
+    }
+
+    public void setBirthdayDate(Date birthdayDate) {
+        BirthdayDate = birthdayDate;
+    }
+
+    public String getAdress() {
+        return adress;
+    }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getLogin() {
@@ -54,64 +106,11 @@ public class User {
         this.password = password;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getRole() {
+        return role;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getEmail() {
-        return Email;
-    }
-
-    public void setEmail(String email) {
-        Email = email;
-    }
-
-    public Boolean getActif() {
-        return isActif;
-    }
-
-    public void setActif(Boolean actif) {
-        isActif = actif;
-    }
-
-    public Integer getOnline() {
-        return Online;
-    }
-
-    public void setOnline(Integer online) {
-        Online = online;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "login='" + login + '\'' +
-                ", password='" + password + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", Email='" + Email + '\'' +
-                ", isActif=" + isActif +
-                ", Online=" + Online +
-                '}';
-    }
-
-    public String getAvatar() {
-        return avatar;
-    }
-
-    public void setAvatar(String avatar) {
-        this.avatar = avatar;
+    public void setRole(String role) {
+        this.role = role;
     }
 }
